@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Firma IT</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="icon" href="logo.png">
+          <script src="skrypt.js" defer></script>
+    </head>
+    <body>
+        <div class="header" >
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <a href="#">
+                Strona Główna
+            </a>
+            <a href="#">
+                Usługi
+            </a>
+            <a href="#">
+                Kontakt
+            </a>
+        </div>
+        <div class="content">
+            <img src="animacja.gif" />
+        </div>
+        <div class="contact-form">
+            <h2>
+                Kontakt
+            </h2>
+            <label for="first-name">
+                Imię:
+            </label>
+            <input id="imie" type="text" value="Anna"/>
+            <label for="last-name">
+                Nazwisko:
+            </label>
+            <input id="nazwisko" type="text" value="Nowak"/>
+            <label for="email">
+                E-mail:
+            </label>
+            <input id="email" type="email" value="anna@poczta.pl"/>
+            <label for="message">
+                Zgłoszenie:
+            </label>
+            <textarea id="zgloszenie" rows="4">Kiedy mogę odebrać naprawiony sprzęt?</textarea>
+            <label>
+                <input id="regulamin" checked="" type="checkbox"/>
+                Zapoznałam/em się z regulaminem
+            </label>
+            <div>
+                <button type="reset" onclick="">
+                    Resetuj
+                </button>
+                <button type="submit" onclick="sprawdzFormularz()">
+                    Prześlij
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <hr>
+            <p id="wynik"></p>
+        </div>
+        <div class="footer">
+            Autor strony: Karina Ponomarova
+        </div>
+    </body>
+</html>
